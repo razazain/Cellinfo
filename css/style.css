@@ -1,0 +1,500 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background: #ccccf0;
+    
+}
+::-webkit-scrollbar-thumb{
+    background: #5cb85c;
+    border-radius: 50px;
+}
+/* navbar */
+header {
+    width: 100%;
+}
+
+nav.navbar {
+    background-color: #000062;
+    width: 100%;
+}
+
+.logobrand {
+    width: 300px;
+    height: 120px;
+}
+
+.searchbar {
+    width: 400px;
+    display: flex;
+    padding-right: 20px;
+    /* padding: 0% 10px 0% 20px ; */
+    margin-left: 30%;
+}
+
+.form-control:hover {
+    border-color: #5cb85c;
+}
+
+header .navbarlinks {
+    width: 100%;
+    display: flex;
+    background-color: whitesmoke;
+}
+
+header .navbarlinks ul li {
+    align-items: center;
+    display: inline-block;
+    list-style: none;
+    padding: 10px 50px;
+    /* margin: 20px 80px; */
+}
+
+header .navbarlinks ul {
+    width: 100%;
+}
+
+header .navbarlinks ul li a {
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(119, 119, 119);
+}
+
+header .navbarlinks ul li a:hover {
+    color: #000062;
+    font-weight: 600;
+    transition: all ease 0.5s;
+}
+
+#active-btn {
+    color: #000062;
+}
+
+/* .flex-container{
+    display: flex;
+} */
+
+/* SIDE MENU BAR  */
+.panel-heading {
+    background-color: #000062;
+    width: 80%;
+    height: 8vh;
+    margin-top: 100px;
+    border-radius: 2px;
+}
+
+.panel-title {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial;
+    font-weight: 600;
+    justify-content: center;
+    padding: 28px 0px;
+}
+
+.brand-menu {
+    background-color: white;
+    width: 80%;
+}
+
+.brand-menu ul li {
+    list-style: none;
+    text-align: center;
+    padding: 13px 0px;
+}
+
+.brand-menu ul li a {
+    color: black;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.brand-menu ul li a:hover {
+    color: #000062;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/* SIDE MENU BAR comparisn */
+.panel-heading-Comparison {
+    background-color: #000062;
+    width: 80%;
+    height: 8vh;
+    /* margin-top: 50px; */
+    border-radius: 2px;
+}
+
+.panel-title-Comparison {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial;
+    font-weight: 600;
+    padding: 25px 0px;
+}
+
+.brand-menu-Comparison {
+    background-color: white;
+    width: 80%;
+}
+
+.brand-menu-Comparison ul li {
+    list-style: none;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.brand-menu-Comparison ul li a {
+    color: black;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.brand-menu-Comparison ul li a:hover {
+    color: #000062;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/* footer css */
+footer {
+    width: 100%;
+    height: 70vh;
+    overflow-x: hidden;
+    background-color: #000062;
+}
+
+#social {
+    color: whitesmoke;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.footer-heading {
+    color: whitesmoke;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    padding: 70px 50px;
+}
+
+#contact-links {
+    padding: 0px 40px;
+    color: whitesmoke;
+    margin: 5px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.social-icon {
+    padding: 0px 40px;
+}
+
+footer .flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 100px;
+}
+
+#copyright {
+    color: whitesmoke;
+    font-size: 19px;
+}
+
+.copyright-text {
+    text-align: center;
+    color: #f5f5f5;
+    padding: 80px 0px 0px 0px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.collapse .menu-btn i {
+    color: black;
+    padding-top: 15px;
+    cursor: pointer;
+    font-size: 22px;
+    display: none;
+}
+
+/* featured product */
+.producttitle {
+    margin-top: 100px;
+    font-family: sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: white;
+    padding: 19px;
+    background-color: #000062;
+}
+
+.product-place ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 20px 10px;
+}
+
+.product-card {
+    background-color: white;
+    width: 120px;
+    height: 30vh;
+}
+
+.product-card:hover {
+    background-color: rgb(232, 238, 247);
+    border: 2;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: rgb(199, 218, 248);
+}
+
+.product-img {
+    width: 110px;
+    padding: 5px 5px 0px 5px;
+    height: 18vh;
+}
+
+.product-name {
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+    padding: 25px 10px 0px 10px;
+}
+
+.product-price {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(6, 74, 177);
+}
+
+.product-card-link {
+    color: black;
+}
+
+.product-card-link:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.panel-body {
+    background-color: white;
+}
+
+
+/* Display prdouct */
+.prduct-display {
+    border: 1;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: rgb(232, 238, 247);
+    width: 100%;
+    height: 350px;
+    background-color: white;
+}
+
+.display-picture {
+    margin-top: 25px;
+    margin-left: 30px;
+    width: 200px;
+    height: 300px;
+}
+
+.start-specs {
+    margin-left: 40px;
+    margin-top: 40px;
+    border-bottom: 2px solid rgb(232, 238, 247);
+}
+
+.start-specs ul li {
+    list-style: none;
+    margin: 10px;
+}
+
+.start-specs ul li i {
+    margin: 8px;
+}
+
+.bb {
+    margin-top: 40px;
+    margin-left: 40px;
+    justify-content: space-between;
+}
+
+.specs-box strong {
+    display: block;
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.img-title {
+    margin-top: 80px;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    border-bottom: 5px solid rgb(232, 238, 247);
+}
+
+.mobile-img ul li {
+    list-style: none;
+    margin-left: 180px;
+}
+
+.mobile-img .image1 {
+    width: 80%;
+    margin-top: 20px;
+    height: 700px;
+}
+
+.mobile-img .image2 {
+    width: 80%;
+    margin-top: 50px;
+    height: 700px;
+}
+
+.button {
+    display: flex;
+    height: 50px;
+    width: 20%;
+    padding: 0;
+    margin-bottom: 40px;
+    background: #000062;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #000070;
+    text-decoration: none;
+}
+
+.button:active {
+    background: #000062;
+}
+
+.button__text,
+.button__icon {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 24px;
+    color: #fff;
+    height: 100%;
+}
+
+.button__icon {
+    font-size: 1.5em;
+    background: rgba(0, 0, 0, 0.08);
+}
+
+.compare-list {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.panel-body {
+    background-color: white;
+    border: 1;
+    border-style: solid;
+    border-color: rgb(232, 238, 247);
+}
+.panel-body{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.media-body{
+    margin: 20px;
+}
+.media-heading{
+    color:#000070;
+    font-size: 18px;
+    font-weight: 600;
+}
+.comparision-link:hover
+{
+    text-decoration:none;
+}
+.list-unstyled li{
+    color: black;
+    font-size: 12px;
+}
+.list-unstyled li i{
+    color: black;
+}
+.vs{
+    color: #000070;
+    font-size: 50px;
+    font-weight: 600;
+}
+th{
+    color: #000062;
+}
+
+/* Responsive for 970px */
+@media (max-width:970px) {
+    header .navbarlinks ul {
+        /* position: fixed; */
+        top: 120px;
+        left: 0;
+        background: whitesmoke;
+        height: 80vh;
+        width: 100%;
+        display: block;
+        text-align: center;
+
+    }
+
+    /* #carouselExampleIndicators{
+        top: 600px;
+    } */
+    header .navbarlinks ul li {
+        display: block;
+        margin: 30px 0px;
+    }
+
+    header .navbarlinks ul li a {
+        font-size: 18px;
+        transition: all ease 0.3s;
+
+    }
+
+    header .navbarlinks ul li a:hover {
+        color: #000062;
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    #active-btn {
+        color: #000062;
+    }
+
+    .navbar-dark {
+        height: 30vh;
+    }
+
+    .logobrand {
+        margin-left: 80px;
+
+    }
+
+    .searchbar {
+        margin: 0%;
+    }
+}

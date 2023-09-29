@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+        integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!-- links -->
+    <script src="https://kit.fontawesome.com/4e506f38af.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+
+
+    <!-- bootstrap 4.0 -->
+    <link rel="stylesheet" href="../bootstrap-4.6.1-dist/bootstrap-4.6.1-dist/css/bootstrap.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/contact us.css">
+
+
+
+    <!-- favicon -->
+    <link rel="icon" href="../logo/favicon.png">
+
+
+    <title>Contact us</title>
+
+
+    <style>
+        #active-btn {
+            color: #000062;
+            font-weight: 600;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <!--------- LOGO AND SEARCH BAR ---------------->
+        <nav class="navbar navbar-expand-sm navbar-dark">
+            <a class="navbar-brand" href="../index.html"><img class="logobrand" src="../logo/logo.png"
+                    alt="cellinfo.con"></a>
+
+            <form class="searchbar  my-2 my-lg-0">
+                <input type="text" placeholder="Search" class="form-control mr-sm-2">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </nav>
+
+        <!----------------- NAVIGATION BAR ----------------------------->
+        <nav class="navbarlinks navbar navbar-expand-sm   ">
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+
+                <ul class="flex-container navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a title="HOME PAGE" class="nav-link active-btn" href="../index.html"><i
+                                class="fa-solid fa-house"></i><span class="sr-only">(current)</span></a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a title="Latest and Coming soon Mobile Phones" class="nav-link" href="phones.html">PHONES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" title="Latest Mobile Phones Comparison"
+                            href="comparision.html">COMPARISON</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="active-btn" title="CONTACT US" href="Contatct us.html">CONTACT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" title="ABOUT US" href="about us.html">ABOUT US</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+
+
+    <div class="container-fluid background">
+        <div class="row">
+            <div class="col">
+                <h1 class="heading">CONTACT US</h1>
+            </div>
+            <div class="col">
+            </div>
+        </div>
+    </div>
+    <section class="contact" style="background-color: whitesmoke;">
+        <div class="container">
+            <div class="textinfo">
+                <div class="box">
+                    <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                    <div class="text">
+                        <H3>Adress</H3>
+                        <p>A-65, ACME Co., Street no 12, New York</p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                    <div class="text">
+                        <H3>Phone</H3>
+                        <p>+001-28272300, 2466, 2469</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+                    <div class="text">
+                        <H3>Email</H3>
+                        <p>webmaster@cellinfo.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contactForm">
+                <form>
+                    <h2 style="color: black;">Send Message</h2>
+                    <div class="inputbox">
+                        <input type="text" placeholder="Full Name" required>
+                    </div>
+                    <div class="inputbox">
+                        <input type="text" placeholder="Email" required>
+                    </div>
+                    <div class="inputbox">
+                        <textarea placeholder="Type Your Message" required></textarea>
+                    </div>
+                    <div class="inputbox">
+                        <input type="submit" value="send">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- footer -->
+    <footer>
+        <div class=" container-fluid  flex-container">
+            <div style="flex-grow: 5">
+                <h3 class="footer-heading ">Contact Us</h3>
+                <div id="contact-links"><i id="social" class="fa-solid fa-envelope"></i>webmaster@cellinfo.com</div>
+                <div id="contact-links"><i id="social" class="fa-brands fa-whatsapp"></i> +001-28272300, 2466, 2469
+                </div>
+                <div id="contact-links"><i id="social" class="fa-solid fa-location-dot"></i>A-65, ACME Co., Street no
+                    12, New York</div>
+            </div>
+            <div style="flex-grow: 5">
+                <h3 class="footer-heading ">Follow Us</h3>
+                <div class="social-icon"> <a href="#"><i id="social" class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i id="social" class="fa-brands fa-instagram"></i></a> <a href="#"><i id="social"
+                            class="fa-brands fa-twitter"></i></a> <a href="#"><i id="social"
+                            class="fa-brands fa-youtube"></i></a>
+                </div>
+
+            </div>
+        </div>
+
+        <p class="copyright-text"> <i id="copyright" class="fa fa-copyright" aria-hidden="true"></i> 2022 CELLINFO.com
+            is operated from New York </p>
+    </footer>
+
+</body>
+
+</html>
